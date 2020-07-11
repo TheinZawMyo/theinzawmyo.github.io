@@ -1,0 +1,158 @@
+#skill {
+    list-style: none;
+    padding-top: 30px;
+}
+
+#skill li {
+    margin-bottom: 70px;
+    background: #ffffff;
+    height: 10px;
+    border-radius: 3px;
+    border-left: 1px solid #111;
+    border-top: 1px solid #111;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+#skill li em {
+    position: relative;
+    top: -30px;
+}
+
+.expand {
+    height: 8px;
+    margin: 2px 0;
+    background: #bd1220;
+    position: absolute;
+    box-shadow: 0px 0px 10px 1px rgba(255, 0, 0, 0.4);
+}
+
+.html5 {
+    width: 70%;
+    -moz-animation: html5 2s ease-out;
+    -webkit-animation: html5 2s ease-out;
+}
+
+.php {
+    width: 80%;
+    -moz-animation: php 2s ease-out;
+    -webkit-animation: php 2s ease-out;
+}
+
+.jquery {
+    width: 50%;
+    -moz-animation: jquery 2s ease-out;
+    -webkit-animation: jquery 2s ease-out;
+}
+
+.vuejs {
+    width: 10%;
+    -moz-animation: vuejs 2s ease-out;
+    -webkit-animation: vuejs 2s ease-out;
+}
+
+.android {
+    width: 50%;
+    -moz-animation: android 2s ease-out;
+    -webkit-animation: android 2s ease-out;
+}
+
+@-moz-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-moz-keyframes php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    };
+}
+
+@-moz-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
+
+@-moz-keyframes vuejs {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    };
+}
+
+@-moz-keyframes android {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
+
+@-webkit-keyframes html5 {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 70%;
+    };
+}
+
+@-webkit-keyframes php {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    };
+}
+
+@-webkit-keyframes jquery {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
+
+@-webkit-keyframes vuejs {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    };
+}
+
+@-webkit-keyframes android {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 50%;
+    };
+}
